@@ -1,0 +1,97 @@
+body{
+    background-color: #3F2E3E;
+}
+
+.containerPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.containerCard1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #331D2C;
+    color: #EFE1D1;
+    width: 80%;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tituloPrincipal{
+    color: #EFE1D1;
+    font-family: Finger Paint,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.paragPrincipal{
+    color: #EFE1D1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aParag{
+    background-color: #3F2E3E;
+    color: #EFE1D1;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 7px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aParag a{
+    text-decoration: none;
+    color: #A78295;
+    border: solid 2px #A78295;
+    padding: 3px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.aParag a:hover{
+    background-color: #A78295;
+    color: #3F2E3E;
+    font-weight: bold;
+    border: solid 2px #291d27;
+    transition: 0.9s;
+}
+.aParag h2{
+    text-transform: uppercase;
+}
+.h1Teste, .h2Teste2{
+    text-transform: uppercase;
+}
+
+.linksAutor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #A78295;
+    color: #3F2E3E;
+    width: 80%;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.linksAutor a{
+    text-decoration: none;
+    background-color: #3F2E3E;
+    color: #A78295;
+    border: solid 2px #331D2C;
+    border-radius: 7px;
+    margin-left: 7px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.linksAutor a:hover{
+    background-color: #331D2C;
+    color: #EFE1D1;
+    font-weight: bold;
+    border: solid 2px #3F2E3E;
+    transition: 0.9s;
+}
