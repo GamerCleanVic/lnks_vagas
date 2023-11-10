@@ -39,6 +39,79 @@ body{
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media only screen and (max-width: 900px){
+    .aParag{
+        width: 11rem;
+    }
+}
+@media only screen and (max-width: 770px){
+    .aParag{
+        width: 28rem;
+    }
+}
+@media only screen and (max-width: 830px){
+    .aParag{
+        width: 35rem;
+        font-size: 0.7rem;
+    }
+    .containerCard1{
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .aParag{
+        width: 46rem;
+    }
+}
+@media only screen and (max-width: 913px){
+    .aParag{
+        width: 41rem;
+    }
+}
+@media only screen and (max-width: 541px){
+    .aParag{
+        width: 22rem;
+    }
+}
+@media only screen and (max-width: 281px){
+    .aParag{
+        width: 8.1rem;
+    }
+}
+@media only screen and (max-width: 361px){
+    .aParag{
+        width: 7rem;
+    }
+}
+@media only screen and (max-width: 413px){
+    .aParag{
+        width: 16rem;
+    }
+}
+@media only screen and (max-width: 399px){
+    .aParag{
+        width: 12rem;
+        font-size: 0.5rem;
+    }
+    .containerCard1{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (max-width: 431px){
+    .aParag{
+        width: 16.5rem;
+        font-size: 0.5rem;
+    }
+    .containerCard1{
+        font-size: 0.6rem;
+    }
+}
+@media only screen and (min-width: 1280px){
+    .aParag{
+        width: 59.3rem;
+    }
+}
+
 .aParag a{
     text-decoration: none;
     color: #A78295;
