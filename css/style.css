@@ -1,130 +1,110 @@
 body{
-    background-color: #3F2E3E;
+    background-image: url("https://raw.githubusercontent.com/GamerCleanVic/archives/main/images/raios.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-color: #003b88;
 }
 
 .containerPrincipal{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
+@media only screen and (min-width: 1025px){
+    .programacaoTI, .freelance, .designGeral{
+        width: 27rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .programacaoTI, .freelance, .designGeral, .autorTitulo{
+        width: 92%;
+    }
+    .programacaoTI{
+        background-color: hsl(0, 0%, 9%, 0.3);
+        border-radius: 7px;
+        margin-bottom: 3rem;
+    }
+    .freelance{
+        background-color: rgba(36, 90, 190, 0.3);
+        border-radius: 7px;
+        margin-bottom: 3rem;
+    }
+    .designGeral{
+        background-color: hsl(0, 0%, 9%, 0.3);
+        border-radius: 7px;
+        margin-bottom: 3rem;
+    }
+    .containerCard1{
+        margin-left: 0.8rem;
+    }
+}
+.autorTitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.programacaoTI{
+    margin-top: 1.2rem;
+}
+.freelance{
+    margin-top: 1.2rem;
+}
+.designGeral{
+    margin-top: 1.2rem;
+}
+
 .containerCard1{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #331D2C;
-    color: #EFE1D1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #7F669D;
+    color: #FBFACD;
     width: 80%;
     padding: 2rem;
-    margin: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     border-radius: 7px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .tituloPrincipal{
-    color: #EFE1D1;
+    color: #FBFACD;
     font-family: Finger Paint,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .paragPrincipal{
-    color: #EFE1D1;
+    color: #FBFACD;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .aParag{
-    background-color: #3F2E3E;
-    color: #EFE1D1;
+    background-color: #DEBACE;
+    color: #392e3f;
     width: 90%;
     padding: 2rem;
     border-radius: 7px;
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-@media only screen and (max-width: 900px){
-    .aParag{
-        width: 11rem;
-    }
-}
-@media only screen and (max-width: 770px){
-    .aParag{
-        width: 28rem;
-    }
-}
-@media only screen and (max-width: 830px){
-    .aParag{
-        width: 35rem;
-        font-size: 0.7rem;
-    }
-    .containerCard1{
-        font-size: 0.7rem;
-    }
-}
-@media only screen and (max-width: 1025px){
-    .aParag{
-        width: 46rem;
-    }
-}
-@media only screen and (max-width: 913px){
-    .aParag{
-        width: 41rem;
-    }
-}
-@media only screen and (max-width: 541px){
-    .aParag{
-        width: 22rem;
-    }
-}
-@media only screen and (max-width: 281px){
-    .aParag{
-        width: 8.1rem;
-    }
-}
-@media only screen and (max-width: 361px){
-    .aParag{
-        width: 7rem;
-    }
-}
-@media only screen and (max-width: 413px){
-    .aParag{
-        width: 16rem;
-    }
-}
-@media only screen and (max-width: 399px){
-    .aParag{
-        width: 12rem;
-        font-size: 0.5rem;
-    }
-    .containerCard1{
-        font-size: 0.6rem;
-    }
-}
-@media only screen and (max-width: 431px){
-    .aParag{
-        width: 16.5rem;
-        font-size: 0.5rem;
-    }
-    .containerCard1{
-        font-size: 0.6rem;
-    }
-}
-@media only screen and (min-width: 1280px){
-    .aParag{
-        width: 59.3rem;
-    }
-}
 
 .aParag a{
     text-decoration: none;
-    color: #A78295;
-    border: solid 2px #A78295;
+    background-color: #392e3f;
+    color: #FBFACD;
+    border: solid 2px #9882a7;
     padding: 3px;
     border-radius: 7px;
     font-weight: bold;
 }
 .aParag a:hover{
-    background-color: #A78295;
-    color: #3F2E3E;
+    background-color: #FBFACD;
+    color: #7F669D;
     font-weight: bold;
-    border: solid 2px #291d27;
+    border: solid 2px #7F669D;
     transition: 0.9s;
 }
 .aParag h2{
@@ -140,8 +120,8 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: #A78295;
-    color: #3F2E3E;
+    background-color: #DEBACE;
+    color: #392e3f;
     width: 80%;
     padding: 2rem;
     margin: 0.5rem;
@@ -151,20 +131,20 @@ body{
 }
 .linksAutor a{
     text-decoration: none;
-    background-color: #3F2E3E;
-    color: #A78295;
-    border: solid 2px #331D2C;
+    background-color: #392e3f;
+    color: #FBFACD;
+    border: solid 2px #9882a7;
     border-radius: 7px;
     margin-left: 7px;
     padding-bottom: 3px;
     padding-top: 3px;
     padding-left: 12px;
     padding-right: 12px;
+    font-weight: bold;
 }
 .linksAutor a:hover{
-    background-color: #331D2C;
-    color: #EFE1D1;
-    font-weight: bold;
-    border: solid 2px #3F2E3E;
+    background-color: #FBFACD;
+    color: #392e3f;
+    border: solid 2px #392e3f;
     transition: 0.9s;
 }
