@@ -148,3 +148,7 @@ body{
     border: solid 2px #392e3f;
     transition: 0.9s;
 }
+
+.titleColor{
+    background-color: #392e3f;
+}
