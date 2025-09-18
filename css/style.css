@@ -117,13 +117,12 @@ body{
 
 .linksAutor{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
     background-color: #DEBACE;
     color: #392e3f;
-    width: 80%;
     padding: 2rem;
     margin: 0.5rem;
     border-radius: 7px;
