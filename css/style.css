@@ -10,36 +10,21 @@ body{
 .containerPrincipal{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    box-sizing: 98%;
 }
-@media only screen and (min-width: 1025px){
-    .programacaoTI, .freelance, .designGeral{
-        width: 27rem;
-    }
-}
-@media only screen and (max-width: 1024px){
-    .programacaoTI, .freelance, .designGeral, .autorTitulo{
-        width: 92%;
-    }
-    .programacaoTI{
-        background-color: hsl(0, 0%, 9%, 0.3);
-        border-radius: 7px;
-        margin-bottom: 3rem;
-    }
-    .freelance{
-        background-color: rgba(36, 90, 190, 0.3);
-        border-radius: 7px;
-        margin-bottom: 3rem;
-    }
-    .designGeral{
-        background-color: hsl(0, 0%, 9%, 0.3);
-        border-radius: 7px;
-        margin-bottom: 3rem;
+@media only screen and (max-width: 1025px){
+    .containerPrincipal{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
     }
     .containerCard1{
-        margin-left: 0.8rem;
+        width: 70% !important;
     }
 }
 .autorTitulo{
@@ -47,8 +32,14 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.7rem !important;
 }
 .programacaoTI{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     margin-top: 1.2rem;
 }
 .freelance{
@@ -66,20 +57,23 @@ body{
     align-items: center;
     background-color: #7F669D;
     color: #FBFACD;
-    width: 80%;
+    width: 37%;
     padding: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     border-radius: 7px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7rem !important;
 }
 .tituloPrincipal{
     color: #FBFACD;
     font-family: Finger Paint,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.7rem !important;
 }
 .paragPrincipal{
     color: #FBFACD;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7rem !important;
 }
 .aParag{
     background-color: #DEBACE;
@@ -89,6 +83,7 @@ body{
     border-radius: 7px;
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7rem !important;
 }
 
 .aParag a{
@@ -99,6 +94,7 @@ body{
     padding: 3px;
     border-radius: 7px;
     font-weight: bold;
+    font-size: 0.7rem !important;
 }
 .aParag a:hover{
     background-color: #FBFACD;
@@ -128,6 +124,7 @@ body{
     border-radius: 7px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
+    font-size: 0.7rem !important;
 }
 .linksAutor a{
     text-decoration: none;
@@ -141,6 +138,7 @@ body{
     padding-left: 12px;
     padding-right: 12px;
     font-weight: bold;
+    font-size: 0.7rem !important;
 }
 .linksAutor a:hover{
     background-color: #FBFACD;
@@ -151,4 +149,5 @@ body{
 
 .titleColor{
     background-color: #392e3f;
+    font-size: 0.7rem !important;
 }
