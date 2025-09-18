@@ -25,6 +25,11 @@ body{
     }
     .containerCard1{
         width: 70% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
     }
 }
 .autorTitulo{
@@ -51,10 +56,10 @@ body{
 
 .containerCard1{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     background-color: #7F669D;
     color: #FBFACD;
     width: 37%;
